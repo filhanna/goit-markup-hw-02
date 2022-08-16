@@ -8,6 +8,10 @@ font-family: 'Roboto', sans-serif;*/
 .header {
   background: #ffffff;
 }
+.hite-title{
+    visibility: hidden;
+
+}
 
 /*Логотип*/
 .logo {
@@ -90,6 +94,7 @@ font-family: 'Roboto', sans-serif;*/
   line-height: 30px;
   /* identical to box height, or 188% */
   color: #ffffff;
+  cursor: pointer;
 
   display: flex;
   align-items: center;
@@ -122,7 +127,6 @@ font-family: 'Roboto', sans-serif;*/
 .feature-text {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
@@ -168,7 +172,6 @@ font-family: 'Roboto', sans-serif;*/
 .job-title {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
@@ -191,7 +194,6 @@ font-family: 'Roboto', sans-serif;*/
 .adress-list {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
@@ -204,7 +206,6 @@ font-family: 'Roboto', sans-serif;*/
 .adress-contact {
   ont-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   /* or 171% */
@@ -250,7 +251,7 @@ font-family: 'Roboto', sans-serif;*/
 
   color: #ffffff;
   background: #2196f3;
-  /* shadow-middle */
+  
 }
 /* Проекти*/
 
@@ -278,7 +279,6 @@ font-family: 'Roboto', sans-serif;*/
 .project-type {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   /* identical to box height, or 188% */
