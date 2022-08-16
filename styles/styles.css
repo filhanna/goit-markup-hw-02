@@ -1,8 +1,11 @@
 /* шрифти font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;*/
-.body {
+ body{
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  
 }
 
 .header {
@@ -95,7 +98,6 @@ font-family: 'Roboto', sans-serif;*/
   /* identical to box height, or 188% */
   color: #ffffff;
   cursor: pointer;
-
   display: flex;
   align-items: center;
   text-align: center;
