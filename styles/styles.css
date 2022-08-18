@@ -1,52 +1,40 @@
-:root{
-    --primary-text-color: #212121;
-    --secondary-text-color: #757575;
-    --activity-color: #2196f3;
-    --white-text-color: #ffffff;
-    --primary-background-color:#FFFFFF;
-    --secondary-background-color: #f5f4fa;
-    --
-    
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --activity-color: #2196f3;
+  --white-text-color: #ffffff;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
 }
- 
 
-
-
-
-body{
-
-  color:var(--primary-text-color);
-  background-color:rgba(255, 255, 255, 1);
-  font-family: "Roboto", sans-serif;
+body {
+  color: var(--primary-text-color);
+  background-color: rgba(255, 255, 255, 1);
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  
 }
 
-
-.hite-title{
-    visibility: hidden;
-
+.hite-title {
+  visibility: hidden;
 }
-
 
 /*Логотип*/
 .logo {
   color: var(--activity-color);
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
   text-decoration: none;
   line-height: 1.19;
-  
 }
 .logo-part {
-    color: rgba(33, 33, 33, 1);
+  color: rgba(33, 33, 33, 1);
 }
-.logo-part-footer{
-    color: rgba(255, 255, 255, 1);
+.logo-part-footer {
+  color: rgba(255, 255, 255, 1);
 }
 /*Меню навігaції*/
 .list {
@@ -60,18 +48,16 @@ body{
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color:var(--primary-text-color);
-
+  color: var(--primary-text-color);
 }
-.current{
-    color: var(--activity-color);
+.current {
+  color: var(--activity-color);
 }
 .list-item:hover {
   color: var(--activity-color);
 }
 /*Контактна информація*/
 .link {
-  
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -87,7 +73,7 @@ body{
   list-style-type: none;
 }
 .section {
-  background-color:rgba(47, 48, 58, 1);
+  background-color: rgba(47, 48, 58, 1);
 }
 /* Слоган*/
 .slogan {
@@ -105,7 +91,7 @@ body{
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  color:var(--white-text-color);
+  color: var(--white-text-color);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -116,9 +102,8 @@ body{
   border-radius: 4px;
 }
 
-
 .section-feature .section-how {
-  background-color:var(--secondary-background-color);
+  background-color: var(--secondary-background-color);
 }
 .list-feature {
   list-style-type: none;
@@ -130,7 +115,7 @@ body{
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color:var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 .feature-text {
   line-height: 24px;
@@ -147,12 +132,12 @@ body{
   line-height: 42px;
   letter-spacing: 0.03em;
 
-  color:var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 /* Наша команда*/
 
 .section-team {
-  background-color:var(--secondary-background-color);
+  background-color: var(--secondary-background-color);
 }
 .list-team {
   list-style-type: none;
@@ -178,7 +163,7 @@ body{
 }
 /* Footer*/
 .footer {
-    background-color:rgba(47, 48, 58, 1);
+  background-color: rgba(47, 48, 58, 1);
 }
 .address-item {
   list-style-type: none;
@@ -187,20 +172,18 @@ body{
   font-style: normal;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color:var(--white-text-color);
+  color: var(--white-text-color);
   text-decoration: none;
 }
-.color-adress{
-    font-style: normal;
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    top: 2205px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color:var(--white-text-color);
-    
-
+.color-adress {
+  font-style: normal;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2205px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--white-text-color);
 }
 .adress-contact {
   font-style: normal;
@@ -233,7 +216,7 @@ body{
   text-align: center;
   letter-spacing: 0.03em;
 
-  color:var(--activity-color);
+  color: var(--activity-color);
   background: rgba(245, 244, 250, 1);
 }
 /* Проекти*/
@@ -247,18 +230,17 @@ body{
   line-height: 36px;
   text-decoration: none;
   letter-spacing: 0.06em;
-  color:var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 .project-item {
   text-decoration: none;
-  background:var(--primary-background-color);
-  border: 1px solid #EEEEEE;
-
+  background: var(--primary-background-color);
+  border: 1px solid #eeeeee;
 }
 .project-type {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
 
-  color:var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
